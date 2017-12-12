@@ -1,0 +1,21 @@
+/* Header */
+.large-header {
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	z-index: -1;
+	width: 100%;
+	position: fixed;
+}
+
+
+
+
+@media only screen and (max-width : 1200px) {
+	.demo-1 .main-title, 
+	.demo-3 .main-title,
+	.demo-4 .main-title {
+		font-size: 3em;
+	}
+

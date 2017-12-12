@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+<title>Human Up</title>
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+
+<meta name="description" content="Examples for creative website header animations using Canvas and JavaScript" />
+        <meta name="keywords" content="header, canvas, animated, creative, inspiration, javascript" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link href="http://fonts.googleapis.com/css?family=Arimo:400" rel="stylesheet">
+
+</head>
+
+<body style="padding-top: 100px">
+<div class="content">  
+                      <div id="large-header" class="large-header">
+                  <canvas id="demo-canvas">   </canvas> </div> 
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top col-lg-offset-0 col-lg-12"><a class="menu-bar" data-toggle="collapse" href="#menu">
+  <span class="bars"></span>            
+  </a>
+  &nbsp;
+  <div class="collapse menu" id="menu">
+    <ul class="list-inline">
+     &nbsp;
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#">People</a></li>
+      <li><a href="#">Action</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>   
+  </div>
+</nav>
+
+
+
+<div class="container" id="carousel">
+	<div class="row">
+		<div class="span12">
+    	    <div class="well"> 
+              <div id="myCarousel" class="carousel slide">
+                 
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                </ol>
+                 
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+                    
+                <div class="item active">
+                	<div class="row-fluid">
+                	  <div class="span3 col-lg-3 col-md-3 col-sm-3 col-xs-3"><a href="#x"><img src="images/people3.png" alt="football player" class="img-circle" id="carouselimage" style="max-width:100%;" /></a></div>
+                		<div class="span3 col-lg-3 col-md-3 col-sm-3 col-xs-3"><img src="images/people1.png" alt="man" onclick="myFunction()" id="carouselimage" class="img-circle" style="max-width:100%;" /></div>
+                		<div class="span3 col-lg-3 col-md-3 col-sm-3 col-xs-3"><a href="#x"><img src="images/people2.png" alt="Man Smoking" class="img-circle" id="carouselimage" style="max-width:100%;" /></a></div>
+                		<div class="span3 col-lg-3 col-md-3 col-sm-3 col-xs-3"><a href="#x"><img src="images/people4.png" alt="Old Man" class="img-circle" id="carouselimage" style="max-width:100%;" /></a></div>
+                	</div><!--/row-fluid-->
+                </div><!--/item-->
+                 
+                <div class="item">
+                	<div class="row-fluid">
+                		<div class="span3 col-lg-3 col-md-3 col-sm-3 col-xs-3"><a href="#x"><img src="images/people5.png" alt="Young Boy" id="carouselimage" class="img-circle" style="max-width:100%;" /></a></div>
+                		<div class="span3 col-lg-3 col-md-3 col-sm-3 col-xs-3"><a href="#x"><img src="images/people6.png" alt="Man with Coffee" id="carouselimage" class="img-circle" style="max-width:100%;" /></a></div>
+                		<div class="span3 col-lg-3 col-md-3 col-sm-3 col-xs-3"><a href="#x"><img src="images/people7.png" alt="couple" id="carouselimage" class="img-circle" style="max-width:100%;" /></a></div>
+                		<div class="span3 col-lg-3 col-md-3 col-sm-3 col-xs-3"><a href="#x"><img src="images/people8.png" alt="Image" id="carouselimage" class="img-circle" style="max-width:100%;" /></a></div>
+                	</div><!--/row-fluid-->
+                </div><!--/item-->
+                 
+                </div><!--/carousel-inner-->
+                 
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev"><img src="images/leftArrow.png" id="leftArrow" class="img-responsive img-rounded" alt="arrowLeft"></a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next"><img src="images/rightArrow.png" id="rightArrow" class="img-responsive img-rounded" alt="arrowLeft"></a>
+                </div><!--/myCarousel-->
+                 
+            </div><!--/well-->   
+		</div>
+	</div>
+</div>
+
+<div class="row">
+  <div class="col-lg-12" id="spacer"></div>
+</div>
+<div id="myDIV">
+<div class="row">
+  <div class="col-lg-10 col-lg-offset-1 col-md-offset-1 col-md-10 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1" id="aboutInformation">
+  <img src="images/people1_1.png" alt="man" class="img-circle img-responsive" id="aboutPhotos">  
+<h3>BENJAMIN ANTAR</h3>
+<p>Etiam sed condimentum est. Quisque fringilla vulputate vehicula. Morbi vitae erat mattis, suscipit augue sed, ultrices mauris. Quisque bibendum mi in tristique ornare. Nulla eget finibus velit. Cras est dolor, ornare quis fermentum non, hendrerit vel leo. Sed vestibulum commodo leo, eget elementum nulla varius at. Phasellus ac metus ac diam porta porta. Vestibulum vel diam in nibh pulvinar iaculis eget eu felis. Nam vel leo non risus ullamcorper scelerisque. Maecenas ac sapien dui. Fusce elementum id dui vitae sodales. Maecenas ornare ullamcorper eleifend. Aliquam ultrices nulla sit amet hendrerit varius.</p>
+ <p>Nullam interdum tincidunt faucibus. Sed et volutpat justo. Sed sem odio, pharetra sed tempus nec, ullamcorper id tellus. Phasellus sodales metus augue, vel venenatis dui laoreet eu. Nulla ac nulla lorem. Sed tempor, ligula ut bibendum tempus, nulla metus gravida mauris, a pellentesque nisi odio a odio. Integer iaculis mauris vitae luctus rhoncus.</p>
+ <p>Aenean convallis tempor dui in auctor. Aenean tincidunt et lacus a eleifend. Vivamus dignissim arcu at malesuada accumsan. Aenean imperdiet nisl nec venenatis fermentum. Etiam ultricies elit sapien, sit amet egestas mauris accumsan ut. Donec ut tellus maximus, feugiat nisi ut, bibendum eros. Suspendisse porta nisi commodo, dignissim urna a, consectetur mauris. Nulla facilisis egestas risus id efficitur. Aenean sit amet suscipit risus. Praesent tincidunt magna ut ante interdum, vel finibus velit tempor.</p>
+ <p>Nullam interdum tincidunt faucibus. Sed et volutpat justo. Sed sem odio, pharetra sed tempus nec, ullamcorper id tellus. Phasellus sodales metus augue, vel venenatis dui laoreet eu. Nulla ac nulla lorem. Sed tempor, ligula ut bibendum tempus, nulla metus gravida mauris, a pellentesque nisi odio a odio. Integer iaculis mauris vitae luctus rhoncus.</p>
+ <p>Suspendisse potenti. Quisque nec efficitur tortor. Etiam semper volutpat metus a semper. Nulla lobortis tempor urna in tincidunt. Duis at interdum leo. Nunc dapibus dui molestie justo finibus tempus. Fusce quis mattis turpis. Suspendisse potenti. Quisque nec efficitur tortor. Etiam semper volutpat metus a semper. Nulla lobortis tempor urna in tincidunt. Duis at interdum leo. Nunc dapibus dui molestie justo finibus tempus. Fusce quis mattis turpis.</p>
+ 
+ <img src="images/hobbies1.png" alt="Chicago" class="img-circle img-responsive" id="peoplePhotos"> 
+ <img src="images/hobbies2.png" alt="Paint Brushes" class="img-circle img-responsive" id="peoplePhotos">
+ <img src="images/hobbies3.png" alt="Coffee" class="img-circle img-responsive" id="peoplePhotos">
+ <div class="row">
+   <div class="col-lg-12" id="spacer2"></div>
+ </div>
+<p>Nullam interdum tincidunt faucibus. Sed et volutpat justo. Sed sem odio, pharetra sed tempus nec, ullamcorper id tellus. Phasellus sodales metus augue, vel venenatis dui laoreet eu. Nulla ac nulla lorem. Sed tempor, ligula ut bibendum tempus, nulla metus gravida mauris, a pellentesque nisi odio a odio. Integer iaculis mauris vitae luctus rhoncus.</p>
+ <p>Aenean convallis tempor dui in auctor. Aenean tincidunt et lacus a eleifend. Vivamus dignissim arcu at malesuada accumsan. Aenean imperdiet nisl nec venenatis fermentum. Etiam ultricies elit sapien, sit amet egestas mauris accumsan ut. Donec ut tellus maximus, feugiat nisi ut, bibendum eros. Suspendisse porta nisi commodo, dignissim urna a, consectetur mauris. Nulla facilisis egestas risus id efficitur. Aenean sit amet suscipit risus. Praesent tincidunt magna ut ante interdum, vel finibus velit tempor.</p></div>
+</div>
+	</div>
+
+<div class="row">
+  <div class="col-lg-12" id="spacer"></div>
+</div>
+
+
+
+
+<footer id="footer" class="#logoTop"><div class="row">
+ <div class="row" id="bardiv3">
+  <div class="col-lg-12"></div>
+</div>
+  <a href="index.html"><img src="images/smallLogo.png" id="logoTop" width="100" height="92" alt=""/></a>
+</div></footer>
+
+</div>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/navBar.js"></script>
+ <script src="js/rAF.js"></script>
+        <script src="js/demo-2.js"></script>
+
+</body>
+</html>
